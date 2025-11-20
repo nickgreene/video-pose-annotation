@@ -1,5 +1,23 @@
 # video-pose-annotation
 
+## How to Run
+This depends on `https://github.com/jdibenes/hl2ss`
+
+you must set up your folder structure so that `hl2ss` and this repository are in
+the same parent folder. The correct structure should be:
+
+```
+parent/
+├── hl2ss/
+│   └── ...
+└── video-pose-annotation/
+    └── ...
+```
+
+Then you can run
+```
+python video-annotation.py path/to/data
+```
 
 ## Keyboard Controls
 
